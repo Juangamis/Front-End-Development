@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Arrow Function Scope</title>
+</head>
+<body>
+    <script> 
+        // arrow function
+        const arrowFunction = () => {
+            let z = 30; // z hanya dapat daikses dalam fungsi
+            console.log("nilai z:", z);
+        };
+
+        // call function
+        arrowFunction();
+
+        // z tidak dapat dakses di fungsi
+        console.log("nilai z di luar fugnsi:", z);
+    </script>
+</body>
+</html>
